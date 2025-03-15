@@ -7,10 +7,21 @@ import Header from "./components/Header";
 import MainContent from "./components/MainContent";
 import Footer from "./components/Footer";
 import UserProfile from "./components/UserProfile";
+<<<<<<< HEAD
 import Counter from "./components/Counter";
 function App() {
   const [count, setCount] = useState(0);
 
+=======
+import ProfilePage from "./components/ProfilePage";
+import UserContext from "./UserContext";
+
+function App() {
+  const [count, setCount] = useState(0);
+
+  const userData = { name: "Alice", email: "alice@example.com" };
+
+>>>>>>> 9dadeac (new commit)
   return (
     <>
       <div className="welcome-section">
@@ -22,11 +33,18 @@ function App() {
         <MainContent />
         <UserProfile name="Alice" age={25} bio="Loves hiking and photography" />
         <Footer />
+<<<<<<< HEAD
         <Counter />
       </div>
 
       <div className="counter-part">
         <h1 style={{ textAlign: "center" }}>React Counter Application</h1>
+=======
+
+        <UserContext.Provider value={userData}>
+          <ProfilePage />
+        </UserContext.Provider>
+>>>>>>> 9dadeac (new commit)
       </div>
 
       <div className="logos">
@@ -59,4 +77,8 @@ function App() {
     </>
   );
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9dadeac (new commit)
 export default App;

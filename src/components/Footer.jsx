@@ -2,6 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
+<<<<<<< HEAD
     <footer
       style={{
         backgroundColor: "black",
@@ -11,6 +12,9 @@ const Footer = () => {
         marginTop: "20px",
       }}
     >
+=======
+    <footer>
+>>>>>>> 9dadeac (new commit)
       <p>© 2023 City Lovers</p>
     </footer>
   );

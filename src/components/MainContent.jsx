@@ -2,6 +2,7 @@ import React from "react";
 
 const MainContent = () => {
   return (
+<<<<<<< HEAD
     <main
       style={{
         padding: "20px",
@@ -13,6 +14,10 @@ const MainContent = () => {
       <p style={{ fontSize: "18px", fontWeight: "bold", color: "#333" }}>
         I love to visit New York, Paris, and Tokyo.
       </p>
+=======
+    <main>
+      <p>I love to visit New York, Paris, and Tokyo.</p>
+>>>>>>> 9dadeac (new commit)
     </main>
   );
 };
