@@ -7,9 +7,10 @@ import Header from "./components/Header";
 import MainContent from "./components/MainContent";
 import Footer from "./components/Footer";
 import UserProfile from "./components/UserProfile";
-import Counter from "./components/Counter"; // ✅ الإبقاء على Counter
+import Counter from "./components/Counter";
 import ProfilePage from "./components/ProfilePage";
-import UserContext from "./UserContext";
+/* import UserContext from "./UserContext";
+ */ import UserContext from "./components/UserContext";
 
 function App() {
   const [count, setCount] = useState(0);
