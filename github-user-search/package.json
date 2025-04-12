@@ -26,3 +26,4 @@
     "vite": "^6.2.0"
   }
 }
+/* ["tailwindcss"] / src/index.css doesn't contain: ["@tailwind base", "@tailwind components", "@tailwind utilities"]*/
