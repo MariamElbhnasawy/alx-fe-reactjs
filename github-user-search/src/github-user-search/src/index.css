@@ -66,5 +66,5 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
-/* ["tailwindcss"] / src/index.css doesn't contain: "@tailwind base", "@tailwind components", "@tailwind utilities"
- */
+/* 
+["tailwindcss"] / src/index.css doesn't contain: ["@tailwind base", "@tailwind components", "@tailwind utilities"] */
